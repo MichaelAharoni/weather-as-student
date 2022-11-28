@@ -1,0 +1,48 @@
+{
+	"name": "pairbnb",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+
+		"axios": "^0.25.0",
+		"luxon": "^1.28.0",
+		"moment": "^2.29.1",
+		"node-sass": "^7.0.1",
+		"react": "^17.0.2",
+		"react-compound-slider": "^3.3.1",
+		"react-dom": "^17.0.2",
+		"react-redux": "^7.2.6",
+		"react-router-dom": "^5.3.0",
+		"react-scripts": "5.0.0",
+		"react-swipeable-views": "^0.14.0",
+		"redux": "^4.1.2",
+		"redux-thunk": "^2.4.1",
+		"rheostat": "^4.1.1",
+		"socket.io-client": "^4.4.1",
+		"styled-components": "4.4.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
